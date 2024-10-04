@@ -3,15 +3,15 @@ import { Line } from "react-chartjs-2"
 
 
 interface BrightnessAndTempLinesProps {
-    propDates: String[];
+    propDateTime: String[];
     propBrightnessValues: number[];
     propTemperatures: number[];
 }
 
-const BrightnessAndTempLines = ({ propTemperatures, propDates, propBrightnessValues }: BrightnessAndTempLinesProps) => {
+const BrightnessAndTempLines = ({ propTemperatures, propDateTime, propBrightnessValues }: BrightnessAndTempLinesProps) => {
 
 
-    const labels = propDates;
+    const labels = propDateTime;
 
     const brightnessValues = propBrightnessValues
 
